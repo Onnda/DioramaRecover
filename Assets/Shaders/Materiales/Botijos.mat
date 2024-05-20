@@ -13,7 +13,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ROUGH_OR_SMOOTH
   - _USEMETALLIC
   - _USENORMALMAP
   - _USETEXTUREBASECOLOR
@@ -37,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _T_Metallic:
-        m_Texture: {fileID: 2800000, guid: 905b9c9650813ae4891195c98947009f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ab99eedfaf93af4e85990b5a98ffb96, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _T_NormalMap:
@@ -45,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _T_Roughness:
-        m_Texture: {fileID: 2800000, guid: 2f2086d1aa9c53a4386e475cb14cdffd, type: 3}
+        m_Texture: {fileID: 2800000, guid: d00b4ce51f81a2146bc4cf7ad8d8840b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -66,7 +65,7 @@ Material:
     - _Metalic1_0: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGH_OR_SMOOTH: 1
+    - _ROUGH_OR_SMOOTH: 0
     - _USEMETALLIC: 1
     - _USENORMALMAP: 1
     - _USETEXTUREBASECOLOR: 1
