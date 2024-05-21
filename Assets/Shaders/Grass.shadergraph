@@ -3986,6 +3986,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
+    "m_ObjectId": "54e61593dc724561bce7f9e0b157c34c",
+    "m_Id": 6,
+    "m_DisplayName": "World Space Normal",
+    "m_SlotType": 0,
+    "m_Hidden": true,
+    "m_ShaderOutputName": "WorldSpaceNormal",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 2
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "55112f92c4b24de2b6dd8af744cf0339",
     "m_Id": 1,
@@ -4213,6 +4237,30 @@
         "x": -2941.0,
         "y": -129.99996948242188
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BitangentMaterialSlot",
+    "m_ObjectId": "5d590bc4b2c4437db46d6552524eb61d",
+    "m_Id": 5,
+    "m_DisplayName": "World Space Bitangent",
+    "m_SlotType": 0,
+    "m_Hidden": true,
+    "m_ShaderOutputName": "WorldSpaceBitangent",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 2
 }
 
 {
@@ -7421,30 +7469,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
-    "m_ObjectId": "ae800bc339cc43678fd8bdb15d176971",
-    "m_Id": 3,
-    "m_DisplayName": "World Space Position",
-    "m_SlotType": 0,
-    "m_Hidden": true,
-    "m_ShaderOutputName": "WorldSpacePosition",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": [],
-    "m_Space": 2
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SmoothstepNode",
     "m_ObjectId": "afc03ae1a9154865b71625e5f15bda89",
     "m_Group": {
@@ -8709,6 +8733,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.TangentMaterialSlot",
+    "m_ObjectId": "d17c2cd315b34026b422f0065d58e2a4",
+    "m_Id": 4,
+    "m_DisplayName": "World Space Tangent",
+    "m_SlotType": 0,
+    "m_Hidden": true,
+    "m_ShaderOutputName": "WorldSpaceTangent",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 2
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "d539a26945864a06b8f76899a0925b95",
     "m_Id": 2,
@@ -9880,6 +9928,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
+    "m_ObjectId": "edf16ea6f68f4c2293b478360680978b",
+    "m_Id": 3,
+    "m_DisplayName": "World Space Position",
+    "m_SlotType": 0,
+    "m_Hidden": true,
+    "m_ShaderOutputName": "WorldSpacePosition",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 2
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "eedc8aedd7744d978d8fa294e12f3f8f",
     "m_Id": 4,
@@ -10261,23 +10333,32 @@
     },
     "m_Slots": [
         {
-            "m_Id": "ae800bc339cc43678fd8bdb15d176971"
+            "m_Id": "91f82d2c9cc7406ba88e98356465e71c"
         },
         {
-            "m_Id": "91f82d2c9cc7406ba88e98356465e71c"
+            "m_Id": "edf16ea6f68f4c2293b478360680978b"
+        },
+        {
+            "m_Id": "d17c2cd315b34026b422f0065d58e2a4"
+        },
+        {
+            "m_Id": "5d590bc4b2c4437db46d6552524eb61d"
+        },
+        {
+            "m_Id": "54e61593dc724561bce7f9e0b157c34c"
         }
     ],
     "synonyms": [
         "eye vector"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
     },
-    "m_Space": 2
+    "m_Space": 3
 }
 
 {

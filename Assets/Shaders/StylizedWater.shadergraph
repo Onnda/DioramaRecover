@@ -232,12 +232,6 @@
             "m_Id": "e4f3743e2b4042dbad8b2f6d453d7a50"
         },
         {
-            "m_Id": "416816b583cc468d8e7fb3626bf26472"
-        },
-        {
-            "m_Id": "1a98bcd823964293ad4cc6929c7c069c"
-        },
-        {
             "m_Id": "073b40214f294b7693104efd2cf1aaa1"
         }
     ],
@@ -476,6 +470,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "1e664d3f19c14407a068035f7fc36be0"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "425ba2174b77432999287b19e1878656"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "9e0ca911a7a0454ebdefc3739b08921c"
                 },
                 "m_SlotId": 0
             }
@@ -842,6 +850,34 @@
                     "m_Id": "1e664d3f19c14407a068035f7fc36be0"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "e4cc949147864863b636b13ce22c3594"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "9e0ca911a7a0454ebdefc3739b08921c"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "e4cc949147864863b636b13ce22c3594"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "9e0ca911a7a0454ebdefc3739b08921c"
+                },
+                "m_SlotId": 2
             }
         }
     ],
@@ -1518,26 +1554,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
-    "m_ObjectId": "1a98bcd823964293ad4cc6929c7c069c",
-    "m_Title": "Voronoi",
-    "m_Content": "could be usefuññ depending of the effect\n",
-    "m_TextSize": 0,
-    "m_Theme": 0,
-    "m_Position": {
-        "serializedVersion": "2",
-        "x": 72.73748016357422,
-        "y": 2600.034912109375,
-        "width": 200.0,
-        "height": 160.0
-    },
-    "m_Group": {
-        "m_Id": ""
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "1bdb438d44734f98a046e4ff1e2dfa06",
     "m_Id": 1,
@@ -1596,10 +1612,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2.000121593475342,
-            "y": 2008.0,
-            "width": 208.00015258789063,
-            "height": 337.0
+            "x": 0.00003647804260253906,
+            "y": 1964.9998779296875,
+            "width": 208.00003051757813,
+            "height": 336.9998779296875
         }
     },
     "m_Slots": [
@@ -2315,26 +2331,6 @@
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
-    "m_ObjectId": "416816b583cc468d8e7fb3626bf26472",
-    "m_Title": "New Note",
-    "m_Content": "The gradient noised can also be tiled in the same way\n",
-    "m_TextSize": 0,
-    "m_Theme": 0,
-    "m_Position": {
-        "serializedVersion": "2",
-        "x": -91.0,
-        "y": 1844.0,
-        "width": 200.0,
-        "height": 100.0
-    },
-    "m_Group": {
-        "m_Id": ""
     }
 }
 
@@ -4411,10 +4407,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -4.000004768371582,
-            "y": 2683.0,
-            "width": 207.99998474121095,
-            "height": 361.000244140625
+            "x": -169.99996948242188,
+            "y": 2346.0,
+            "width": 207.99996948242188,
+            "height": 360.999755859375
         }
     },
     "m_Slots": [
